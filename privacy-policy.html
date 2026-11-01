@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Habit Guardian</title>
+  <meta name="description" content="Privacy policy for the Habit Guardian Android app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="site">
+    <a class="brand" href="./">Habit Guardian</a>
+    <nav><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms and Conditions</a></nav>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: November 1, 2026</p>
+
+  <div class="summary">
+    <strong>In short:</strong> Habit Guardian works offline. It has no account, no ads, no analytics and no server of its own.
+    Everything you enter and everything it measures stays on your phone. We (the developer) never receive your data.
+  </div>
+
+  <p>This policy explains how the Habit Guardian Android app ("the app", "we", "us") handles your information. It applies to the app as published on Google Play under the package name <code>com.habitguardian</code>.</p>
+
+  <h2>1. Data we collect</h2>
+  <p><strong>We do not collect, transmit, sell or share any personal data.</strong> The app has no sign-up, no user account, and no backend. We have no access to anything you store in it.</p>
+
+  <h2>2. Data stored on your device</h2>
+  <p>To work, the app stores the following in a private database on your phone. Other apps cannot read it.</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Data</th><th>What it's for</th></tr>
+    <tr><td>Habits, goals, reminders and checklists you create</td><td>Showing and tracking your habits</td></tr>
+    <tr><td>Habit history (check-ins, streaks, warnings shown)</td><td>The History screen and progress rings</td></tr>
+    <tr><td>Step counts</td><td>Step goals</td></tr>
+    <tr><td>Workout distance and duration</td><td>Tracking runs and walks</td></tr>
+    <tr><td>Places you tag (latitude and longitude)</td><td>Place guards, which warn you when you get near a place you chose to avoid</td></tr>
+    <tr><td>Downloaded AI models</td><td>Understanding habits written in languages other than English, and voice guards</td></tr>
+  </table>
+  </div>
+  <p>The app turns off Android cloud backup for this data. If you uninstall the app or clear its storage, all of it is deleted permanently.</p>
+
+  <h2>3. Permissions and how they are used</h2>
+  <p>Each permission is optional and only requested when you turn on the feature that needs it. You can revoke any of them at any time in Android Settings.</p>
+
+  <h3>Physical activity (activity recognition)</h3>
+  <p>Reads your phone's built-in step counter so you can track step goals. Step totals are saved on the device only.</p>
+
+  <h3>Location, including background location</h3>
+  <p>Used for two features you turn on yourself:</p>
+  <ul>
+    <li><strong>Place guards:</strong> you tag a place (for example, a shop you want to avoid), and the app alerts you when you get near it, <strong>even when the app is closed or not in use</strong>. This is why it asks for "Allow all the time". It uses Android's geofencing service, which is provided by Google Play services.</li>
+    <li><strong>Runs and walks:</strong> measures distance with GPS while a workout you started is running.</li>
+  </ul>
+  <p>Your location is never sent to us or to anyone else, and the app does not keep a location history. It stores only the places you tag and the total distance of each workout.</p>
+
+  <h3>Microphone</h3>
+  <p>Used for <strong>voice guards</strong> (warning you when you say a keyword you chose) and for dictating habits. Speech is turned into text <strong>on your phone</strong> by a downloaded speech model (Whisper) or by Android's on-device speech recognizer. Audio is processed in memory and is <strong>never recorded, saved or uploaded</strong>. While a voice guard is on, Android shows an ongoing notification so you always know the microphone is in use.</p>
+  <p>If you choose the Android speech engine and your phone has no on-device recognizer, Android may use its default speech service (often Google's). That service is run by its provider under its own privacy policy, not ours.</p>
+
+  <h3>Notification access</h3>
+  <p>Used for <strong>app guards</strong>. For example, it can warn you when a food delivery app sends you a promotion. The app checks only notifications from apps you chose, and only on your phone. It reads their title and text to look for your keywords and to show you a warning. The content is not stored or sent anywhere. Notifications from other apps are ignored.</p>
+
+  <h3>Installed apps</h3>
+  <p>When you name an app in a habit (for example "less Talabat"), the app looks up your installed apps' names to find the right one. This list is not stored or shared.</p>
+
+  <h3>Notifications, exact alarms, full-screen alerts, vibration, run at startup</h3>
+  <p>Used to deliver reminders and warnings at the right time, and to restore your reminders after your phone restarts.</p>
+
+  <h2>4. Internet use</h2>
+  <p>The app connects to the internet <strong>only to download optional AI models</strong> when you ask it to. These are the language model (Qwen3) and the speech model (Whisper), downloaded from <a href="https://huggingface.co" rel="noopener">Hugging Face</a>. As with any download, Hugging Face receives your IP address and basic device and network information needed to deliver the file, under <a href="https://huggingface.co/privacy" rel="noopener">its privacy policy</a>. Nothing you type or say is ever sent. After a model is downloaded, the AI features run fully offline.</p>
+
+  <h2>5. Third-party services</h2>
+  <ul>
+    <li><strong>Google Play services</strong>, for geofencing (place guards) and location. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
+    <li><strong>Google Play</strong>, which installs and updates the app and may collect data on its own under Google's policies. That includes, for example, crash reports if you have opted in to sharing them with developers.</li>
+    <li><strong>Hugging Face</strong>, for model downloads only (see section 4).</li>
+  </ul>
+  <p>The app contains no advertising, analytics or tracking SDKs.</p>
+
+  <h2>6. Data security</h2>
+  <p>Your data is kept in the app's private storage, which Android isolates from other apps. Downloaded models are checked against a SHA-256 checksum before use. Because nothing leaves your device, the main way to protect your data is to keep your phone locked.</p>
+
+  <h2>7. Your choices and rights</h2>
+  <ul>
+    <li><strong>See or edit your data:</strong> everything is visible and editable in the app.</li>
+    <li><strong>Delete your data:</strong> delete individual habits in the app, or remove everything by uninstalling the app or using Settings → Apps → Habit Guardian → Storage → Clear storage.</li>
+    <li><strong>Withdraw permissions:</strong> Settings → Apps → Habit Guardian → Permissions, and Settings → Notifications → Device &amp; app notifications for notification access.</li>
+  </ul>
+  <p>Since we hold no data about you, there is nothing for us to access, export or delete on our side. You can still contact us with any privacy question.</p>
+
+  <h2>8. Children</h2>
+  <p>The app is not directed at children under 13, and we do not knowingly collect information from anyone, including children.</p>
+
+  <h2>9. Health and fitness information</h2>
+  <p>Step counts and workout data are used only to show your own progress inside the app. They are not used for advertising, not shared, and not used to make medical decisions.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If we change this policy, we will update this page and the effective date above. If the app starts collecting or sharing data in a new way, we will say so in the app before it happens.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about privacy: <a href="mailto:YOUR_CONTACT_EMAIL">YOUR_CONTACT_EMAIL</a></p>
+
+  <footer>© 2026 Habit Guardian · <a href="terms.html">Terms and Conditions</a></footer>
+</main>
+</body>
+</html>
