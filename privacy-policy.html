@@ -15,7 +15,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective date: November 1, 2026</p>
+  <p class="meta">Effective date: November 2, 2026</p>
 
   <div class="summary">
     <strong>In short:</strong> Habit Guardian works offline. It has no account, no ads, no analytics and no server of its own.
@@ -35,7 +35,7 @@
     <tr><td>Habits, goals, reminders and checklists you create</td><td>Showing and tracking your habits</td></tr>
     <tr><td>Habit history (check-ins, streaks, warnings shown)</td><td>The History screen and progress rings</td></tr>
     <tr><td>Step counts</td><td>Step goals</td></tr>
-    <tr><td>Workout distance and duration</td><td>Tracking runs and walks</td></tr>
+    <tr><td>Workout steps, estimated distance and duration</td><td>Tracking runs and walks you start</td></tr>
     <tr><td>Places you tag (latitude and longitude)</td><td>Place guards, which warn you when you get near a place you chose to avoid</td></tr>
     <tr><td>Downloaded AI models</td><td>Understanding habits written in languages other than English, and voice guards</td></tr>
   </table>
@@ -46,15 +46,15 @@
   <p>Each permission is optional and only requested when you turn on the feature that needs it. You can revoke any of them at any time in Android Settings.</p>
 
   <h3>Physical activity (activity recognition)</h3>
-  <p>Reads your phone's built-in step counter so you can track step goals. Step totals are saved on the device only.</p>
+  <p>Reads your phone's built-in step counter so you can track step goals and record <strong>runs and walks</strong>. Step totals are saved on the device only.</p>
+  <p>Runs and walks do <strong>not</strong> use location or GPS. The distance shown is an estimate worked out from your steps and the stride length you set in Settings.</p>
 
   <h3>Location, including background location</h3>
-  <p>Used for two features you turn on yourself:</p>
+  <p>Used only for <strong>place guards</strong>, a feature you turn on yourself:</p>
   <ul>
     <li><strong>Place guards:</strong> you tag a place (for example, a shop you want to avoid), and the app alerts you when you get near it, <strong>even when the app is closed or not in use</strong>. This is why it asks for "Allow all the time". It uses Android's geofencing service, which is provided by Google Play services.</li>
-    <li><strong>Runs and walks:</strong> measures distance with GPS while a workout you started is running.</li>
   </ul>
-  <p>Your location is never sent to us or to anyone else, and the app does not keep a location history. It stores only the places you tag and the total distance of each workout.</p>
+  <p>Your location is never sent to us or to anyone else, and the app does not keep a location history. It stores only the places you tag.</p>
 
   <h3>Microphone</h3>
   <p>Used for <strong>voice guards</strong> (warning you when you say a keyword you chose) and for dictating habits. Speech is turned into text <strong>on your phone</strong> by a downloaded speech model (Whisper) or by Android's on-device speech recognizer. Audio is processed in memory and is <strong>never recorded, saved or uploaded</strong>. While a voice guard is on, Android shows an ongoing notification so you always know the microphone is in use.</p>
@@ -66,6 +66,14 @@
   <h3>Installed apps</h3>
   <p>When you name an app in a habit (for example "less Talabat"), the app looks up your installed apps' names to find the right one. This list is not stored or shared.</p>
 
+  <h3>Foreground services (features that keep running with the screen off)</h3>
+  <p>The app runs a foreground service only while a feature you started is on. Android shows an ongoing notification the whole time, and you can stop it at any time:</p>
+  <ul>
+    <li><strong>Run and walk tracking (health):</strong> starts when you tap "Start run" or "Start walk" and counts your steps with the screen off. It stops when you tap "Finish" in the app or in the notification.</li>
+    <li><strong>Voice guard (microphone):</strong> listens on your phone for the keywords you chose while a voice guard is turned on. It stops when you turn the voice guard off.</li>
+  </ul>
+  <p>The app does not run a location foreground service.</p>
+
   <h3>Notifications, exact alarms, full-screen alerts, vibration, run at startup</h3>
   <p>Used to deliver reminders and warnings at the right time, and to restore your reminders after your phone restarts.</p>
 
@@ -74,7 +82,7 @@
 
   <h2>5. Third-party services</h2>
   <ul>
-    <li><strong>Google Play services</strong>, for geofencing (place guards) and location. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
+    <li><strong>Google Play services</strong>, for geofencing (place guards) and for finding your position when you tag a place. See <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
     <li><strong>Google Play</strong>, which installs and updates the app and may collect data on its own under Google's policies. That includes, for example, crash reports if you have opted in to sharing them with developers.</li>
     <li><strong>Hugging Face</strong>, for model downloads only (see section 4).</li>
   </ul>
@@ -95,13 +103,13 @@
   <p>The app is not directed at children under 13, and we do not knowingly collect information from anyone, including children.</p>
 
   <h2>9. Health and fitness information</h2>
-  <p>Step counts and workout data are used only to show your own progress inside the app. They are not used for advertising, not shared, and not used to make medical decisions.</p>
+  <p>Step counts and workout data (steps, estimated distance and duration) are used only to show your own progress inside the app. They are not used for advertising, not shared, and not used to make medical decisions.</p>
 
   <h2>10. Changes to this policy</h2>
   <p>If we change this policy, we will update this page and the effective date above. If the app starts collecting or sharing data in a new way, we will say so in the app before it happens.</p>
 
   <h2>11. Contact</h2>
-  <p>Questions about privacy: <a href="mailto:YOUR_CONTACT_EMAIL">YOUR_CONTACT_EMAIL</a></p>
+  <p>Questions about privacy: <a href="mailto:alizubair686@gmail.com">alizubair686@gmail.com</a></p>
 
   <footer>© 2026 Habit Guardian · <a href="terms.html">Terms and Conditions</a></footer>
 </main>
